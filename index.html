@@ -54,15 +54,21 @@ font-family: Alfa Slab One;
 width: 70%;
 border-color: lightsalmon lightgreen lightskyblue lightgreen ;
 text-shadow: 5px 10px 10px black ;
-overflow: scroll;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: baseline;
+flex-wrap: wrap;
 }
 .apple{
 font-size: xxx-large;
     text-align: center;
     color: white;
 } 
-.Aa{
-    color: white;
+span.Aa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .page3{
     text-align: left;
@@ -76,7 +82,11 @@ font-family: Alfa Slab One;
 width: 70%;
 border-color: lightgreen lightskyblue lightcoral lightskyblue;
 text-shadow: 5px 10px 10px black ;
-overflow: scroll;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: baseline;
+flex-wrap: wrap;
 }
 .page4{
     text-align: left;
@@ -90,7 +100,11 @@ font-family: Alfa Slab One;
 width: 70%;
 border-color: lightgreen lightsalmon lightcoral lightsalmon;
 text-shadow: 5px 10px 10px black ;
-overflow: scroll;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: baseline;
+flex-wrap: wrap;
 }
 .aimg{
     height:100px;
@@ -131,6 +145,28 @@ p{
 }
 .div-page{
     cursor: pointer;
+}
+img{
+    order: 1;
+}
+.Aa{
+    color: white;
+    font-size: 200px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 620px) { 
+    .Aa{
+        font-size: 90px;
+    }
+    .apple{
+        font-size: large;
+    }
+    .img2{
+        height: 100px;
+        width: 100px;
+    }
+.d2{
+    height: 100px;
+}
 }
     </style>
  <div class="d1" id="div1">
